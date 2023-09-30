@@ -3,127 +3,21 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<!-- Copyright of GENIAL INGELE. This calculator is merely an estimation of what your bond would cost and the other costs associated with it.
-    Hence, GENIAL INGELE is not liable for any inaccuracies found in this code. We are trying to guide you in making a decision in the best way we can, 
-    but the accurate information will be given to you by your bank. 
-
-    NOTE: Data found on this code is based on South African laws and fees.
-    
-    DATE: 24 SEPTEMBER 2023
-    GENIAL INGELE
-
--->
-
-<!--
-
-    /*TODO 
-    * Automatically separate large numbers with comma or point when typed in  */
-
--->
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="Bond Calculator">
+        <title>Genial Ingele Projects</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href="">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div id="hero" class="hero"><h1>Bond Calculator (2023)</h1></div>
-        
-    <!-- Container for both calculator and results breakdown columns-->
-    <div id="parent_container" class="parent_container" >
-
-        <!-- Container for the calculator-->
-        <div id="form_container" style="flex: 1; margin-right: 20px; ">
-
-            <!--Form for the bond calculator -->
-            <form id="calculator_input_form">
-                
-                <label for="purchase_price">Purchase Price</label><br>
-                <input type="number" min="0" id="purchase_price" name="purchase_price" onkeypress="return isNumber(event)"  value="500000"><br>
-
-                <label for="deposit">Deposit (Optional)</label><br>
-                <input type="number"  min="0" id="deposit" name="Deposit" onkeypress="return isNumber(event)" value="50000"/><br>
-
-                <label for="interest_rate">Interest Rate (prime)</label><br>
-                <input type="number" min="0" id="interest_rate" name="interest_rate" onkeypress="return isDecimalNumber(event)" style="width: 95px;" value="11.75"><span>%</span><br>
-
-                <label for="number_of_years">Number of years</label><br>
-                <select id="number_of_years" name="number_of_years" onkeypress="return isNumber(event)">
-                        <option value="5">5 years</option>
-                        <option value="10">10 years</option>
-                        <option value="15">15 years</option>
-                        <option selected value="20">20 years</option>
-                        <option value="25">25 years</option>
-                </select> <br>
-            </form>
-            
-            <br>
-
-            <!-- Container for buttons-->
-            <div id="button_container" class="button_container">
-           
-                <button id="reset_btn" onclick="reset()" >Reset</button>
-                <button id="submit_btn" onclick="bondCalculator(document.getElementById('purchase_price').value, document.getElementById('interest_rate').value, document.getElementById('number_of_years').value, document.getElementById('deposit').value)">Calculate</button>
-
-            </div>
-        </div>
-
-        <!-- Container for the results breakdown-->
-        <div id="results_breakdown" style="flex: 4;">
-            <p>Monthly repayment: </p>
-            <h2>R <span id="monthly_repayment" name="monthly_repayment">0.0</span> </h2>
-            
-            <p>Your salary should be at least</p>
-            <h2>R <span id="salary" name="salary">0.0</span></h2>
-            <hr>
-            
-
-           
-            <h2>Once-off Costs (inc. VAT): <b>R <span id="once_off_cost" >0.0</span></b></p></h2> 
-            
-            <span style="float: inline-end"> <b>R <span id="total_bond_registration_costs" >0.0</span></b></p> </span>
-            <h3>Bond Registration </h3>
-
-            <p>Deeds office bond fee: <b>R <span id="deeds_office_bond_fee">0.0</span></b></p>
-            <p>Bond registration costs: <b>R <span id="bond_registration_cost">0.0</span></b></p>
-            <p>Bank initiation: <b>R <span id="bank_initiation_fee">0.0</span></b></p>
-            <p>Postage, FICA & other fees: <b>R <span id="other_bond_fees">0.0</span></b></p>
 
         
-            <span style="float:inline-end"> <b>R <span id="total_transfer_costs" >0.0</span></b></p> </span>
-            <h3>Transfer Costs </h3>
-
-            <p>Deeds office transfer fee: <b>R <span id="deeds_office_transfer_fee">0.0</span></b></p>
-            <p>Property Transfer cost: <b>R <span id="transfer_cost">0.0</span></b></p>
-            <p>Transfer duty cost: <b>R <span id="transfer_duty_cost">0.0</span></b></p>
-            <p>Postage, FICA & other fees: <b>R <span id="other_transfer_fees">0.0</span></b></p>            
-            
-            <hr>
-            <p>Total interest: <b>R <span id="total_interest">0.0</span></b></p>
-             <b><span id=""></span></b>
-        </div>
-
-    </div>
-<div id="copyright" class="copyright"> 
- <p><em>Copyright of GENIAL INGELE (2023). This calculator is merely an estimation of what your bond (as a natural person) would cost and the other costs associated with it.
-    Hence, GENIAL INGELE is not liable for any inaccuracies found in this code. We are trying to guide you in making a decision in the best way we can, 
-    but the accurate information will be given to you by your bank. </em></p>
-    
-   <p><em> NOTE: Data found on this code is based on South African laws and fees.
-    
-    <b>DATE: 24 SEPTEMBER 2023</b>
-         GENIAL INGELE. </em>
- 
-    </p>
-
-</div>
-        <script src="calculator_script.js" async defer></script>
+        <script src="/scripts/script.js" async defer></script>
     </body>
 </html>
