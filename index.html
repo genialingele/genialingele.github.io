@@ -10,35 +10,37 @@
         <title>Genial Ingele Projects</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/scripts/style.css">
+        <link rel="stylesheet" href="/scripts/styleClean.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <div style="text-align: center;">
-    <a href="#"><img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-    </a>
-</div>
 
+
+<!--MENU -->
     <nav class="menu">
-        <a href="#">PROJECTS</a>
-        <a href="#">SKILLS</a>
-        <a href="#">ABOUT ME</a>
+        <a href="#" id="image_home_link"><img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" alt="logo_of_project" width="10%" >
+        </a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#about">ABOUT ME</a>
     </nav>
+
+<!-- END MENU -->
        
-    <body>
+<body>
 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
-
-<!--SECTION 1-->
-<section class="section_img_left_txt_right">
-    <div class="section_type_1_img">
-        <img src="img/genialIngele_hs2.jpg" width="100%">
+<!--SECTION 1: BIO INTRO-->
+<section class="section_img_left_txt_right_bio">
+    
+    <div class="section_type_1_img_bio">
+        <img src="img/genialIngele_hs2.jpg">
     </div>
 
-    <div class="section_type_1_txt">
+    <div class="section_type_1_txt_bio">
       <h2>Genial Ingele</h2>
       <h3><em>Software Developer</em></h3>
       <p>I use logic and creativity to bring solutions to problems. </p>
@@ -56,43 +58,46 @@
    
     </div>
 </section>
-<br>  <hr> <br>
+
 <!--END SECTION 1-->
 
 
 
 
 <!--SECTION 2-->
-<div id="projects">
-<h2 style="text-align: center ;">My Recent Projects</h2>
-<br>
+<div id="projects" class="container_random">
+
+<h2>My Recent Projects</h2>
+</div>
 
 <!--LINE 1 OF PROJECTS-->
-<section class="cta_div" >
+<div class="cta_div" >
 
+    <!--PROJECT 1-->
    <div class="cta">
-    <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-       <H3>BOND CALCULATOR</H3>
-       <p>A calculator that helps you estimate how much your home loan will cost every month. It uses values such as purchase price and interest rate.</p>
-       <a href="https://genialingele.github.io/bond_calculator/" target="_blank"><button>VIEW PROJECT</button></a>
-   </div>
-   
-
-   <div class="cta">
-    <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-    <H3>HTML BG CHANGER</H3>
-    <p>HTML Tool you can use to change the background of the page with a button/toggle. This could be used for many purposes such as "Dark Mode"</p>
-    <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
+        <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
+        <h3>BOND CALCULATOR</h3>
+        <p>A calculator that helps you estimate how much your home loan will cost every month. It uses values such as purchase price and interest rate.</p>
+        <a href="https://genialingele.github.io/bond_calculator/" target="_blank"><button>VIEW PROJECT</button></a>
     </div>
    
-  <div class="cta">
-    <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-    <H3>INCOME TAX CALCULATOR</H3>
-    <p>Use this to calculate how much income tax you owe. It uses your salary, age, and more. Results may vary depending on certain criteria. </p>
-    <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
+   <!--PROJECT 2-->
+   <div class="cta">
+        <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
+        <h3>HTML BG CHANGER</h3>
+        <p>HTML Tool you can use to change the background of the page with a button/toggle. This could be used for many purposes such as "Dark Mode"</p>
+        <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
     </div>
-    
-</section>
+   
+    <!--PROJECT 1-->
+    <div class="cta">
+        <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
+        <h3>INCOME TAX CALCULATOR</h3>
+        <p>Use this to calculate how much income tax you owe. It uses your salary, age, and more. Results may vary depending on certain criteria. </p>
+        <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
+    </div>
+
+</div>
 <!--END LINE 1 OF PROJECTS-->
 
 <!--LINE  2 OF PROJECTS-->
@@ -100,23 +105,21 @@
 
     <div class="cta">
      <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-        <H3>CHATBOT (GenAI)</H3>
+        <h3>CHATBOT (GenAI)</h3>
         <p>A calculator that helps you estimate how much your home loan will cost every month. It uses values such as purchase price and interest rate.</p>
         <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
-    </div>
-    
-    
+    </div>    
  
     <div class="cta">
      <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-     <H3>CV BUILDER</H3>
-     <p>HTML Tool you can use to change the background of the page with a button/toggle. This could be used for many purposes such as "Dark Mode"</p>
+     <h3>CV BUILDER</h3>
+     <p>A fun app that helps you build a slick, clean and simple resume (CV). You can download the PDF version of it and apply for a job wherever.</p>
      <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
      </div>
     
    <div class="cta">
      <img src="/img/Genial Ingele logo main bw_Plan de travail 1.png" width="100px" alt="logo_of_project">
-     <H3>INVOICING APP</H3>
+     <h3>INVOICING APP</h3>
      <p>Use this to calculate how much income tax you owe. It uses your salary, age, and more. Results may vary depending on certain criteria. </p>
      <button onclick="alert('I am still working on this. I will upload it soon. Keep an eye out :-)')">COMING SOON</button>
      </div>
@@ -124,54 +127,84 @@
      
      
  </section>
- <br>
- <p style= "text-align:center"> More projects to come in the near future...</p>
- <br>
- <!--END LINE 1 OF PROJECTS-->
 
-<br><br>
+ <!--END SECTION 2-->
 
+ 
+ <!--LINK HEADER-->
+<div class="container_random">
+ <h3> More projects to come in the near future...</h3>
 </div>
-<!--END SECTION 2-->
+
+
 
 <!--IMAGE-->
-<div class="large_portrait">
-<h2>Genial Ingele</h2>
+<div class="wide_image">
+<img src="/img/genialingele_cover.jpg" >
 </div>
+
+
    
 
 
 <!--END IMAGE-->
 
-<!--SECTION 4-->
-<H2>SKILLS</H2>
+<!--SECTION 3-->
+
+ <!--LINK HEADER-->
+ <div class="container_random">
+    <h2>My Skills</h2>
+   </div>
+
 <section class="two_column_text">
 
     <div class="half_column">
-        <h2>Front End Development  </h2>
-        <ul>
-            <li>HTML [=======================]</li>
-            <li>Javascript [==============]</li>
-            <li>CSS [===========]</li>   
-            <li>Bootstrap [===========]</li>      
-        </ul>
-       
-      
+        <h3>Front End Development  </h3>
+
+            <p>HTML</p> 
+            <div class="skill_bar" style="width: 350px;"></div> 
+
+            <p>Javascript </p> 
+            <div class="skill_bar" style="width: 200px;"></div> 
+
+            <p>CSS</p> 
+            <div class="skill_bar" style="width: 250px;"></div> 
+
+            <p>Bootstrap </p> 
+            <div class="skill_bar" style="width: 50px;"></div> 
+
     </div>
 
     <div class="half_column">
-        <h2>Backend Developement </h2>
-        <ul>
-            <li>Python [=======================]</li>
-            <li>Java [===========]</li>  
-            <li>Kotlin [===========]</li>   
-            <li>Javascript [==============]</li>
-            <li>PHP [==============]</li>
-            <li>SQL [===========]</li>      
-        </ul>
+        <h3>Backend Developement </h3>
+
+            <p>Python </p> 
+            <div class="skill_bar" style="width: 300px;"></div> 
+
+            <p>Java</p> 
+            <div class="skill_bar" style="width: 150px;"></div> 
+
+            <p>Kotlin </p> 
+            <div class="skill_bar" style="width: 50px;"></div> 
+
+            <p>Javascript </p> 
+            <div class="skill_bar" style="width: 200px;"></div>
+
+
+            <p>PHP </p> 
+            <div class="skill_bar" style="width: 50px;"></div>
+
+            <p>SQL </p> 
+            <div class="skill_bar" style="width: 200px;"></div>
+
     </div>
 </section>
 
+<!--END SECTION 3-->
+
+
+
+<!--SECTION 3-->
 <H3>CERTIFICATES / LICENSES / CERTIFICATIONS</H3>
 <img src=""  alt="certificate_logo" width="50px">
 <img src=""  alt="certificate_logo" width="50px">
@@ -212,7 +245,7 @@
    
     </div>
 </section>
-<br>
+
 <!--END who is-->
 
 
