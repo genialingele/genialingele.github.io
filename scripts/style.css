@@ -1,74 +1,161 @@
-/* menu */
-.menu{text-align: center; border-radius: 10px; color: #FFFFFF; margin-bottom: 30px;}
-
-
-/* hero */
-.hero_img{margin-bottom: 30px; border-radius: 10px; background-image: linear-gradient(rgba(255, 0, 0, 0.2), rgba(117, 95, 66, 0.2)), url(assets3.jpeg); height: 70vh; margin:0 auto; text-shadow: 0px 0px 5px black; margin-bottom: 20px; text-align: center; }
-.hero_img h1 {color: #fff;  top: 40%; position: relative;}
-
-
-
-
-/*section_type_1*/
-.section_img_left_txt_right{background-color: #f0f0f0; width: 80%; display: flex; margin:0 auto;margin-bottom: 30px; padding: 30px; border-radius: 10px;box-shadow: 0px 0px 3px -1px #000;}
-
-.section_type_1_img{width: 40%;  float: left;}
-.section_type_1_txt{width:60%; overflow:hidden; padding-left: 20px;}
-
-/* button */
-button{ background-color: rgb(0, 0, 0); border: 0 ;padding-left: 20px; padding-right: 20px;padding-top: 10px;padding-bottom: 10px;color: rgb(255,255, 255); 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 12pt; border-radius: 5px;}
-
-button:hover{
-    background:#ff8800;
-    border-radius: 0px;
-}
-
-
-/*section_type_2*/
-.section_img_right_txt_left{width: 80%;display: flex; margin:0 auto; padding: 20px;}
-
-.section_type_2_txt{width: 60%;  float: left;}
-.section_type_2_img{width:40%; overflow:hidden; padding-left: 20px;}
-
-
-/* call_to_action */
-
-.cta_div{width: 80%; display: flex;  margin:0 auto; text-align: center;background-color: #FFF;}
-
-.cta{flex: 3; padding: 20px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
-
-
-/* wide image */
-.wide_image{text-align: center; margin-bottom: 30px; border-radius: 10px ; margin: auto}
-img{border-radius: 10px }
-
-/*two_column_text*/
-.two_column_text{width: 80%; display: flex; margin:0 auto;margin-bottom: 30px;  border-radius: 10px;}
-.half_column{width: 50%;  float: left; overflow: hidden; margin: 5px }
-
-/* footer */
-
-.footer_div{background-color: rgb(230, 230, 230); padding: 30px;}
-
-.footer_section{width: 80%; display: flex; margin:0 auto;margin-bottom: 30px;}
-
 
 /* fonts */ 
 
-p{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: left; color: #000; font-size: 1em;}
+p{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: left; color: #000; font-size: 14pt;}
 
-h1,h2,h3, h4{font-family: Verdana, Geneva, Tahoma, sans-serif; color: #000; line-height: 18pt;}
-h1{font-size: 3.5em;}
-h2{font-size: 1.8em;}
-h3{font-size:1.4em;}
+h1,h2,h3, h4{font-family: Verdana, Geneva, Tahoma, sans-serif; color: #000; }
+h1{font-size: 50pt;}
+h2{font-size: 30pt; }
+h3{font-size: 20pt; }
 
-a{font-family: Verdana, Geneva, Tahoma, sans-serif; padding-left: 20px; padding-right: 20px;; color:#000; letter-spacing: 1px;}
+
+#up_button{
+    position: fixed;
+    right:10px;
+    bottom: 0px;
+   
+}
+
+a{font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none; padding-left: 20px; padding-right: 20px;color:#ffffff; letter-spacing: 1px; }
+
+
+/* menu */
+.menu{ background-color:#000000; text-align: center; color: #FFFFFF;  margin:0 auto; 
+    display: flex; display: flex; flex-wrap: wrap; flex:1 ; align-items: center; justify-content:right; height:75px; padding: 10px;
+}
+
+nav button{
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+
+
+/*BIO CARD : section_type_1: Image on left , Text on Right | BIO CARD*/
+.section_img_left_txt_right_bio{background-color: #f0f0f0; width: 100%; 
+    display: flex; flex-wrap: wrap; align-items: center;  flex-direction: row ;
+    margin-bottom: 50px; 
+    }
+
+    /*section_type_1: IMAGE */
+    .section_type_1_img_bio{padding: 0px; flex: 1; }
+    .section_type_1_img_bio img{padding: 0px; height: 100%; width: 100%; vertical-align: middle;}
+
+    /*section_type_1: TEXT */
+    .section_type_1_txt_bio{padding: 20px; flex: 1}
+    .section_type_1_txt_bio h2{font-size: 40pt; line-height: 40pt;}
+
+
+/*section_type_1: Image on left , Text on Right */
+.section_img_left_txt_right{background-color: #f0f0f0; width: 100%; 
+    display: flex; flex-wrap: wrap; align-items: center;  flex-direction: row ;
+    margin:0 auto;margin-bottom: 30px; 
+}
+
+    /*section_type_1: IMAGE */
+    .section_type_1_img{padding: 0px; flex: 1; }
+    .section_type_1_img img{padding: 0px; height: 100%; width: 100%; vertical-align: middle;}
+
+    /*section_type_1: TEXT */
+    .section_type_1_txt{margin-left: 20px; flex: 1}
+
+
+
+/*section_type_2: Text on left , Image on Right */
+.section_img_right_txt_left{background-color: #f0f0f0; width: 100%; 
+    display: flex; flex-wrap: wrap; align-items: center;  flex-direction: row ;
+    margin:0 auto;margin-bottom: 30px; 
+}
+
+    /*section_type_1: TEXT */
+    .section_type_1_txt{margin-left: 20px; flex: 1}
+
+    /*section_type_1: IMAGE */
+    .section_type_2_img{padding: 0px; flex: 1; }
+    .section_type_2_img img{padding: 0px; height: 100%; width: 100%; vertical-align: middle;}
+
+/* For random container that needs to center its elements*/
+.container_random{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container_random item{
+    color:#ff8800;
+    padding: 5px;
+    font-size: 30pt;
+    
+}
+
+.container_random .certificates{
+    background-color:#fff3cd;
+    padding: 10px;
+}
+
+
+/*PROJECTS: call_to_action */
+
+.cta_div{   width: 80%; margin: 0 auto ;
+            display: flex;  flex-wrap: wrap; 
+            text-align: center;background-color: #FFF;}
+.cta{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
+
+
+
+/* wide image */
+.wide_image{text-align: center; margin-bottom: 30px; border-radius: 10px ; margin: auto; height: 100px; background-color:#ff8800 ;}
+.wide_image img{width:100%}
+
+
+/*two_column_text*/
+.two_column_text{width: 80%; 
+                display: flex; flex-wrap: wrap;
+                margin:0 auto; margin-bottom: 50px;}
+.half_column{ flex: 1; margin: 5px }
+
+/*skills progress bars */
+.skill_bar{
+    height: 10px;
+    background-color: #ff8800;
+}
+
+
+/* footer */
+.footer_div{background-color: #000000; padding: 30px;    
+    display: flex; flex-wrap: wrap;
+    margin:0 auto;}
+
+    /* fonts inside footer */
+    .footer_div p{
+        color: #FFFFFF;
+    }
+
+    .footer_div h2{
+        color:#ff8800 ;
+    }
+
+
+.footer_column{flex: 1; margin: 20px}
+
+
+
+/* button */
+button{ background-color:#000000; border: 0 ; padding: 10px; color: #ffffff; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 12pt; }
+
+button:hover{
+    background:#ff8800;
+
+}
+
+
+/* images */ 
+
 
 
 /* body */
 body{
     background-color: #ffffff;
+    margin: 0px;
 }
 
 
@@ -94,5 +181,86 @@ body{
 
   
 .social_media_icons{
-    /*/ */
+    font-size: 20pt;
 }
+
+
+/* RESPONSIVE */
+
+/* --- Desktop --- */
+
+
+
+/* --- Phone --- */ 
+@media screen and (max-width : 500px){
+
+    
+/*BIO CARD : section_type_1: Image on left , Text on Right | BIO CARD*/
+.section_img_left_txt_right_bio{background-color: #f0f0f0; width: 100%; 
+    display: block;  align-items: center;  
+    margin-bottom: 50px; 
+    }
+
+    /*section_type_1: IMAGE */
+    .section_type_1_img_bio{padding: 0px; flex: 1; }
+    .section_type_1_img_bio img{padding: 0px; height: 100%; width: 100%; vertical-align: middle; margin-top: 75px;}
+
+    /*section_type_1: TEXT */
+    .section_type_1_txt_bio{padding: 20px; flex: 1}
+    .section_type_1_txt_bio h2{font-size: 30pt; line-height: 20pt;}
+
+
+
+.cta_div{ width: 90%; margin: 0 auto ;
+        display: flex;  flex-wrap: wrap; flex-direction: column;
+        text-align: center;background-color: #FFF;}
+.cta{ flex: 1; padding: 10px; border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
+
+/* menu */
+.menu{ background-color:#000000; text-align: center; color: #FFFFFF;  margin:0 auto; 
+     display: flex; flex-wrap: wrap ; align-items: center; justify-content:center; overflow: hidden;
+    height:75px; position:fixed; width: 100%; 
+}
+
+nav button{
+    background-color:#000000;
+    padding-left : 20px;
+    padding-right : 20px;
+    overflow: hidden;
+    margin: 5px;
+}
+nav button:hover{
+    background-color: #bbbbbb;
+}
+
+
+
+/* For random container that needs to center its elements*/
+.container_random{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.container_random item{
+    color:#ff8800;
+    padding: 5px;
+    font-size: 30pt;
+    
+}
+
+.container_random .certificates{
+    background-color:#fff3cd;
+    padding: 10px;
+}
+
+
+/* button */
+button{ background-color:#000000; border: 0 ; padding: 10px;  color: #ffffff;  border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 14pt; }
+
+button:hover{
+    background-color: #6e6e6e;
+}
+
+}
+
