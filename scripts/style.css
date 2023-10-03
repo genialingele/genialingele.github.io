@@ -192,7 +192,7 @@ body{
 
 
 /* --- Phone --- */ 
-@media screen and (max-width : 420px){
+@media screen and (max-width : 767px){
 
     
 /*BIO CARD : section_type_1: Image on left , Text on Right | BIO CARD*/
