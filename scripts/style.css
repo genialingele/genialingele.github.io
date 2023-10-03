@@ -218,17 +218,12 @@ body{
 
 /* menu */
 .menu{ background-color:#000000; text-align: center; color: #FFFFFF;  margin:0 auto; 
-    align-items: center; overflow: hidden; justify-content:center;
-    height:55px; position:fixed; width: 100%; 
+    display:inline-block; height:50px; position:fixed; width: 100%; overflow: hidden;
 }
 
 nav button{
     background-color:#000000;
-    padding-left : 20px;
-    padding-right : 20px;
-    overflow: hidden;
-    margin: 0px;
-    
+    font-size: 12pt;
 }
 nav button:hover{
     background-color: #bbbbbb;
