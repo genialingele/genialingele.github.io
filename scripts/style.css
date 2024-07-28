@@ -100,6 +100,13 @@ nav button{
 .cta{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
 
 
+/*CARDS AND OTHER DIVS */
+.competency_section{width: 100%; margin: 0 auto ; display: flex;  flex-wrap: wrap;  padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
+.competency_column{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; text-align: center};
+.competency_card{background-color: #f0f0f0; flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
+
+/*CARDS AND OTHER DIVS END */
+
 
 /* wide image */
 .wide_image{text-align: center; margin-bottom: 30px; border-radius: 10px ; margin: auto; height: 100px; background-color:#ff8800 ;}
