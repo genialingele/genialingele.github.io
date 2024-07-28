@@ -97,19 +97,21 @@ nav button{
 .cta_div{   width: 80%; margin: 0 auto ;
             display: flex;  flex-wrap: wrap; 
             text-align: center;background-color: #FFF;}
-.cta{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
-
+.cta{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center}
 
 /*CARDS AND OTHER DIVS */
-.competency_section{width: 100%; margin: 0 auto ; display: flex;  flex-wrap: wrap;  padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
-.competency_column{flex: 1; padding: 10px; margin: 5px;border-radius: 10px; text-align: center};
-.competency_card{background-color: #f0f0f0; flex: 1; padding: 10px; margin: 5px;border-radius: 10px; box-shadow: 0px 0px 3px -1px #000; text-align: center};
+.experience_main{background-color: #bbbbbb; display: flex; padding: 20px; width: 80%;}
+.experience_col{}
+.experience_card{background-color: #ff8800; flex:1}
+/*----- CARDS AND OTHER DIVS END */
 
-/*CARDS AND OTHER DIVS END */
+
+
+
 
 
 /* wide image */
-.wide_image{text-align: center; margin-bottom: 30px; border-radius: 10px ; margin: auto; height: 100px; background-color:#ff8800 ;}
+.wide_image{text-align: center; margin-bottom: 30px; border-radius: 10px ; background-color:#ff8800 ;}
 .wide_image img{width:100%}
 
 
@@ -244,6 +246,7 @@ nav button:hover{
     padding: 20px;
     margin-bottom: 10px;
 }
+
 .container_random item{
     color:#ff8800;
     padding: 5px;
@@ -255,6 +258,8 @@ nav button:hover{
     background-color:#fff3cd;
     padding: 10px;
 }
+
+
 
 
 /* button */
@@ -270,7 +275,7 @@ button:hover{
 
 
 /* --- Tablet--- */ 
-@media (min-width : 768px) and (max-width : 1024px){
+@media (min-width : 768px) and (max-width : 900px){
 
     
     /*BIO CARD : section_type_1: Image on left , Text on Right | BIO CARD*/
