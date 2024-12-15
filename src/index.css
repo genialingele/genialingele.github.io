@@ -1,0 +1,101 @@
+:root{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14pt;
+  
+  /* color-scheme: dark;
+
+  /*COLOUR VARIABLES */
+  --primary-colour: #9bc3d8;
+  --primary-colour-darker: #1923ac;
+  --secondary-colour: #19475b;
+  --secondary-colour-darker: #003225;
+  --negative-colour: #222222;
+  --gray-colour: #999999;
+
+  --plain-white: #FFFFFF;
+  --light: #EEEEEE;
+
+  /*SPACING AND SIZING*/
+  --one-space: 1px;
+  --spacing-sm: 5px;
+  --spacing-md: 10px;
+  --spacing-lg: 20px;
+
+  --no-margin: 0;
+
+  --width-sm:240px;
+  --width-md:480px;
+  --width-lg:720px;
+  --width-full: 100%;
+
+  --height-sm:240px;
+  --height-md:480px;
+  --height-lg:720px;
+  --height-full: 100vh;
+
+
+  /*OTHERS */
+  --shadow-sm: 1px 1px 1px 1px var(--negative-colour);
+  --shadow-md: 0px 0px 5px 2px var(--negative-colour);
+  --shadow-lg: 0px 0px 10px 5px var(--negative-colour);
+
+  --radius-sm:5px;
+  --radius-md:10px;
+  --radius-lg:20px;
+
+  --border-sm: 1px solid var(--negative-colour);
+  --border-md: 2px solid var(--negative-colour);
+  --border-lg: 5px solid var(--negative-colour);
+
+}
+
+a{
+  text-decoration:dotted;
+  color: var(--negative-colour);
+  padding: var(--spacing-lg);
+  text-align: right;
+
+}
+a:visited{
+  text-decoration: none;
+  color: var(--negative-colour);
+}
+a:hover{
+  text-decoration: dotted;
+  color: var(--primary-colour);
+  background-color: var(--secondary-colour);
+}
+
+button{
+  background-color: var(--primary-colour) ;
+  color: var(--secondary-colour);
+}
+
+body{
+  background-color: var(--light);
+}
+
+
+.projectCard {
+  background-color: var(--plain-white);
+  padding: var(--spacing-md);
+
+}
+
+.projectLightBox {
+  background-color: var(--plain-white);
+  padding:var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+
+}
+
+.menu{
+  background-color: var(--primary-colour);
+  padding: var(--spacing-lg);
+  margin: var(--no-margin);
+}
+
+/*for the light and dark modes */
+@media (prefers-color-theme: light) {
+  
+}
