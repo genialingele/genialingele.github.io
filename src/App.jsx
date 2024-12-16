@@ -2,6 +2,7 @@
 import Profile from "./Profile";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import Articles from "./Articles";
 
 
 function App(){
@@ -11,6 +12,7 @@ function App(){
    <Profile />
    <Projects/>
    <Experience />
+   <Articles/>
 
     </>
 

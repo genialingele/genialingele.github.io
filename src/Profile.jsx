@@ -27,7 +27,7 @@ function Profile() {
                     <SkillPill skillClass="devicon-php-plain" skillName="PHP"/>
                     <SkillPill skillClass="devicon-python-plain" skillName="Python"/>                        
                     <SkillPill skillClass="devicon-react-plain" skillName="React"/>
-                    <SkillPill skillClass="devicon-java-plain" skillName="Java"/>
+                    <SkillPill skillClass="devicon-javascript-plain" skillName="JavaScript"/>
                     </div>
                     <p> Nice to meet you! 
                         <br></br>

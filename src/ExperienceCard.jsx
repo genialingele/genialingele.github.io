@@ -1,22 +1,23 @@
+import PropTypes from 'prop-types'
 
-
-function ExperienceCard() {
+function ExperienceCard(props) {
     return (<>
         <div className="experienceCard">
             <section>
                 
-                <p>2018 — 2022</p>
+                <p>{props.work_history.years}</p>
 
             </section>
 
             <section>
-            <p><strong>Managing Director at Ndolena Design </strong> </p>
+            <p><strong>{props.work_history.role} at {props.work_history.employer}. </strong> </p>
             <ul>
-                <li>Developed websites (using WordPress, HTML, CSS, JS, PHP, etc.)</li>
-                <li>Developed standard operating procedures</li>
-                <li>Drafted annual and monthly budget</li>
-                <li>Research on innovative marketing techniques</li>
-                <li>Increased revenues by 25%.</li>
+                {
+                        props.work_history.duties.map((duty, id) => (
+                            <li key={id}>{duty}</li>
+                        ))
+                }
+
             </ul>
             </section>
 
@@ -25,5 +26,18 @@ function ExperienceCard() {
 
     </>);
 }
+
+// Add PropTypes validation
+ExperienceCard.propTypes = {
+    work_history: PropTypes.arrayOf(
+        PropTypes.shape({
+            years: PropTypes.string.isRequired, 
+            role: PropTypes.string.isRequired, 
+            employer: PropTypes.string.isRequired, 
+            duties: PropTypes.arrayOf(PropTypes.string).isRequired,
+            map : PropTypes.function,
+        })
+    ).isRequired,
+};
 
 export default ExperienceCard;
