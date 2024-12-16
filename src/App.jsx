@@ -1,28 +1,14 @@
-import Header from "./Header";
+//import {ScrollSnap} from "react-scroll-snap"
+
+import Profile from "./Profile";
 
 function App(){
   return(
     <>
-    <Header/>
-    
-    <h1>Hi</h1>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+   <Profile /> <Profile/>
+
     
     </>
 

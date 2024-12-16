@@ -1,10 +1,9 @@
 
-function Header() {
+function HeaderTrans() {
     return(
         <>
         {/*MENU*/}
-        <div className="menu">
-        <img src="src/assets/react.svg" />
+        <div className="menu2">
             <a href="#">Home </a>
             <a href="#">Projects </a>
             <a href="#">Experience </a>
@@ -22,4 +21,4 @@ function Header() {
     
 }
 
-export default Header;
+export default HeaderTrans;
