@@ -26,8 +26,9 @@
   --spacing-md: 10px;
   --spacing-lg: 20px;
   --spacing-xl: 60px;
+  --spacing-header: -200px;
 
-  --no-margin: 0;
+  --no-space: 0;
 
   --width-s:50px;
   --width-sm:100px;
@@ -42,10 +43,12 @@
 
 
   /*OTHERS */
+  --no-shadow: 0px 0px 0px 0px var(--negative-colour);
   --shadow-s: 0px 0px 1px 0px var(--negative-colour);
   --shadow-sm: 0px 0px 5px 0px var(--negative-colour);
   --shadow-md: 0px 0px 20px 2px var(--negative-colour);
   --shadow-lg: 0px 0px 20px 5px var(--negative-colour);
+
 
   --radius-sm:5px;
   --radius-md:10px;
@@ -60,8 +63,7 @@
   --font-size-sm: 14pt;
   --font-size-md: 18pt;
   --font-size-xl: 48pt;
-
-
+ 
 }
 
 .menu{
@@ -71,19 +73,21 @@
   display: flex;
   justify-content: right;
   /* box-shadow: var(--shadow-sm); */
+  
 
 } 
 
 .menu2{
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
   margin-bottom: var(--spacing-sm); 
   display: flex;
-  justify-content: start;
+  text-transform: uppercase;
   /* box-shadow: var(--shadow-sm); */
 
 } 
 
 a{
+  
   text-decoration:dotted;
   color: var(--negative-colour);
   padding: var(--spacing-md);
@@ -104,6 +108,13 @@ a:hover{
   background-color: var(--secondary-colour-darker);
 }
 
+a:active{
+  text-decoration:none;
+  color: var(--primary-colour);
+  background-color: var(--secondary-colour-darker);
+
+}
+
 h1{
   font-size: var(--font-size-xl);
 }
@@ -116,21 +127,53 @@ button{
 
 body{
   background-color: var(--light-colour);
-  margin: var(--no-margin);
+  margin: var(--no-space);  
 }
 
+.projectsGroup{
+  background-color: var(--primary-colour);
+  display: flex;
+}
 
 .projectCard {
-  background-color: var(--plain-white);
+  background-color: var(--plain-white-colour);
   padding: var(--spacing-md);
-
+  display: flex;
 }
 
 .projectLightBox {
-  background-color: var(--plain-white);
+  background-color: var(--plain-white-colour);
   padding:var(--spacing-lg);
   box-shadow: var(--shadow-md);
+  display: flex;
 
+}
+
+.projectsMenu {
+  
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl); 
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.projectsMenu a, button{
+  border-radius: var(--no-space);
+  background-color: var(--plain-white-colour); 
+  margin: var(--no-space);
+  padding: var(--spacing-lg);
+  font-style:italic;
+  
+}
+
+.projectsMenu a:hover, button:hover{
+  border-radius: var(--no-space);
+  background-color: var(--primary-colour); 
+  margin: var(--no-space);
+  padding: var(--spacing-lg);
+  color: var(--plain-white-colour);
 }
 
 .fullScreen {
@@ -156,7 +199,7 @@ body{
 }
 
 
-.avatar{
+.avatar{ 
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-md);
   height: var(--height-md);
@@ -167,6 +210,32 @@ body{
   border-radius: var(--radius-xl);
 }
 
+.skill a{  
+  background-color: none; 
+  color: var(--secondary-colour);
+  padding: var(--spacing-sm);
+  margin: var(--one-space);
+  font-size:var(--font-size-lg);
+  box-shadow: var(--no-shadow);
+}
+
+.skill a:hover{
+  background-color: rgba(0,0,0,0);
+  color: var(--secondary-colour-darker);
+  margin: var(--spacing-sm);
+  font-size:var(--font-size-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.skill {
+  padding-bottom: var(--spacing-md);
+}
+
+.skills{
+  display: flex;
+  
+}
+
 .two_equal_columns{
   display: flex;
   justify-content: space-evenly; 
@@ -175,28 +244,6 @@ body{
   background-image: radial-gradient(closest-side, var(--primary-colour-lighter), var(--light-colour));
   height: 100vh;
   width: var(--width-full);
-}
-
-
-
-.skill a{
-  background-color: var(--secondary-colour-darker);
-  color: var(--primary-colour);
-  padding: var(--spacing-md);
-  border-radius: var(--radius-sm);
-  margin: var(--spacing-sm);
-  font-size:var(--font-size-lg);
-}
-
-.skill {
-  margin-bottom: var(--spacing-xl);
-}
-
-
-
-.skills{
-  display: flex;
-  
 }
 
 

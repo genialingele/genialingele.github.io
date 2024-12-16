@@ -1,6 +1,6 @@
 import Avatar from "./Avatar";
-import HeaderTrans from "./HeaderTrans";
 import Skill from "./Skill";
+import HeaderTrans from "./HeaderTrans";
 
 
 function Profile() {
@@ -16,23 +16,25 @@ function Profile() {
                 <section>
                     <Avatar />
                 </section>
-
+               
                 <section>
-                    <HeaderTrans />
+                <HeaderTrans/>
 
                     <h1>Genial Ingele
                         <br></br>
                         <em> Software Developer. </em>
                     </h1>
+                    
                     <div className="skill">
-                    <Skill skillClass="devicon-python-plain"/>                        
-                    <Skill skillClass="devicon-react-plain"/>
-                    <Skill skillClass="devicon-php-plain"/>
-                    <Skill skillClass="devicon-java-plain"/>
+                    <Skill skillClass="devicon-php-plain" skillName="PHP"/>
+                    <Skill skillClass="devicon-python-plain" skillName="Python"/>                        
+                    <Skill skillClass="devicon-react-plain" skillName="React"/>
+                    <Skill skillClass="devicon-java-plain" skillName="Java"/>
                     </div>
                 
                     <h3>Hi there. Nice to meet you!</h3>
-                    <p>I am a business minded, full stack developer who uses <br></br> creativity  and logic to resolve real world problems.</p>
+                    <p>I am a business-minded, security-minded, full stack developer who uses 
+                        <br></br> creativity  and logic to resolve real world problems.</p>
 
                     <div className="social_media_icons">
 
