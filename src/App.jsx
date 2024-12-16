@@ -1,6 +1,8 @@
 //import {ScrollSnap} from "react-scroll-snap"
 import Profile from "./Profile";
-import Projects from "./Projects"
+import Projects from "./Projects";
+import Experience from "./Experience";
+
 
 function App(){
   return(
@@ -8,7 +10,7 @@ function App(){
 
    <Profile />
    <Projects/>
-   
+   <Experience />
 
     </>
 

@@ -7,10 +7,6 @@ function Avatar(){
         </div>
         
         </>
-
-
-
-
     );
 }
 

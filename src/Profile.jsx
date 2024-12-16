@@ -1,5 +1,5 @@
 import Avatar from "./Avatar";
-import Skill from "./Skill";
+import SkillPill from "./SkillPill";
 import HeaderTrans from "./HeaderTrans";
 
 
@@ -11,7 +11,7 @@ function Profile() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
             <link rel="icon" type="image/x-icon" href="/img/Genial Ingele logo main bw trans_Plan de travail 1.png" />
 
-            <div className="two_equal_columns">
+            <div className="two_equal_columns_gradient">
 
                 <section>
                     <Avatar />
@@ -20,20 +20,18 @@ function Profile() {
                 <section>
                 <HeaderTrans/>
 
-                    <h1>Genial Ingele
-                        <br></br>
-                        <em> Software Developer. </em>
-                    </h1>
+                    <h1>Genial Ingele </h1>
+                    <h2><em> Software Developer. </em></h2>
                     
                     <div className="skill">
-                    <Skill skillClass="devicon-php-plain" skillName="PHP"/>
-                    <Skill skillClass="devicon-python-plain" skillName="Python"/>                        
-                    <Skill skillClass="devicon-react-plain" skillName="React"/>
-                    <Skill skillClass="devicon-java-plain" skillName="Java"/>
+                    <SkillPill skillClass="devicon-php-plain" skillName="PHP"/>
+                    <SkillPill skillClass="devicon-python-plain" skillName="Python"/>                        
+                    <SkillPill skillClass="devicon-react-plain" skillName="React"/>
+                    <SkillPill skillClass="devicon-java-plain" skillName="Java"/>
                     </div>
-                
-                    <h3>Hi there. Nice to meet you!</h3>
-                    <p>I am a business-minded, security-minded, full stack developer who uses 
+                    <p> Nice to meet you! 
+                        <br></br>
+                    I am a business-minded, cybersecurity-minded, full stack developer who uses 
                         <br></br> creativity  and logic to resolve real world problems.</p>
 
                     <div className="social_media_icons">

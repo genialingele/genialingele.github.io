@@ -5,10 +5,10 @@ import ProjectsMenu from "./ProjectsMenu";
 function Projects (){
     return(
         <>
-        <div>
+        <div className="projects">
+            <h2>Projects</h2>
             <ProjectsMenu/>
             <ProjectsGroup/>
-           
         </div>
         
         

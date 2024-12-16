@@ -1,16 +1,20 @@
 
-function ProjectCard(){
 
-    return(
+function ProjectCard() {
+
+    return (
         <>
-        <div className="">
+            <div className="projectCard">
+                <img src="src\assets\projectCardPlaceHolder.png"></img>
+                <h3>Project Name</h3>
+                <p>Project Details</p>
 
 
 
-        </div>
-        
-        
-        
+            </div>
+
+
+
         </>
 
 
