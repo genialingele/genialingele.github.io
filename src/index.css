@@ -323,7 +323,7 @@ height: max-content;
   display: flex;
   justify-content: space-evenly;  
   align-items: center;
-  background-image: radial-gradient(ellipse at left, var(--light-colour), var(--plain-white-colour));
+  background-image: radial-gradient(ellipse at left, var(--primary-colour-rgba), var(--plain-white-colour));
   height: 100vh;
   border-bottom-left-radius: var(--radius-xl);
 
