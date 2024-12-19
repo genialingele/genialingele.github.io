@@ -20,10 +20,7 @@ function ExperienceCard(props) {
 
             </ul>
             </section>
-
         </div>
-
-
     </>);
 }
 
@@ -35,7 +32,7 @@ ExperienceCard.propTypes = {
             role: PropTypes.string.isRequired, 
             employer: PropTypes.string.isRequired, 
             duties: PropTypes.arrayOf(PropTypes.string).isRequired,
-            map : PropTypes.function,
+            map: PropTypes.func,
         })
     ).isRequired,
 };

@@ -7,12 +7,9 @@ function Profile() {
 
     return (
         <>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-            <link rel="icon" type="image/x-icon" href="/img/Genial Ingele logo main bw trans_Plan de travail 1.png" />
             <HeaderTrans/>
 
-            <div className="two_equal_columns_gradient">
+            <div className="two_equal_columns_gradient" onScroll={console.log("scrolling")}>
 
                 <section>
                     <Avatar />

@@ -1,7 +1,7 @@
 import ProjectsGroup from "./ProjectsGroup";
 import ProjectsMenu from "./ProjectsMenu";
+ 
 
-//use map function 
 
 
 function Projects() {
@@ -11,18 +11,16 @@ function Projects() {
         <>
 
             <div className="projects">
-                <h2>Projects </h2>
+                <h2>My Recent Projects </h2>
                 <ProjectsMenu />
                 <ProjectsGroup />
 
                 <button>View More Projects</button>
-                
+ 
             </div>
 
 
         </>
-
-
 
     );
 }
