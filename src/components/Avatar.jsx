@@ -3,7 +3,7 @@ function Avatar(){
     return(
         <>
         <div className="avatar">
-        <img id="avatar" src="src\assets\genialIngele_hs4.jpg" width="100%"/>
+        <img id="avatar" src="/images/genialIngele_hs4.jpg"/>
         </div>
         
         </>

@@ -1,8 +1,10 @@
 //import {ScrollSnap} from "react-scroll-snap"
-import Profile from "./Profile";
-import Projects from "./Projects";
-import Experience from "./Experience";
-import Articles from "./Articles";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Articles from "./components/Articles";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App(){
@@ -13,6 +15,8 @@ function App(){
    <Projects/>
    <Experience />
    <Articles/>
+   <Contact />
+   <Footer/>
 
     </>
 

@@ -10,6 +10,7 @@ function Profile() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
             <link rel="icon" type="image/x-icon" href="/img/Genial Ingele logo main bw trans_Plan de travail 1.png" />
+            <HeaderTrans/>
 
             <div className="two_equal_columns_gradient">
 
@@ -18,14 +19,11 @@ function Profile() {
                 </section>
                
                 <section>
-                <HeaderTrans/>
-
                     <h1>Genial Ingele </h1>
                     <h2><em> Software Developer. </em></h2>
                     
                     <div className="skill">
-                    <SkillPill skillClass="devicon-php-plain" skillName="PHP"/>
-                    <SkillPill skillClass="devicon-python-plain" skillName="Python"/>                        
+                    <SkillPill skillClass="devicon-php-plain" skillName="PHP"/>                     
                     <SkillPill skillClass="devicon-react-plain" skillName="React"/>
                     <SkillPill skillClass="devicon-javascript-plain" skillName="JavaScript"/>
                     </div>
@@ -50,15 +48,6 @@ function Profile() {
 
 
             </div>
-
-
-
-
-
-
-
-
-
 
 
         </>

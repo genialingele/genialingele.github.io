@@ -1,0 +1,277 @@
+{
+    "experience": [
+        {
+            "years": "2023 — 2024",
+            "role": "IT Consultant",
+            "employer": "Rosvin (pty) ltd",
+            "duties": [
+                "Automated processes using Python and other methods.",
+                "Resolved IT related issues.",
+                "Reports generation and maintenance.",
+                "Contributed to improving corporate identity."
+            ]
+        },
+        {
+            "years": "2018 — 2022",
+            "role": "Managing Director",
+            "employer": "Ndolena Design",
+            "duties": [
+                " Developed websites (using WordPress, HTML, CSS, JS, PHP, etc.)",
+                " Developed standard operating procedures",
+                " Drafted annual and monthly budget",
+                " Research on innovative marketing techniques",
+                " Increased revenues by 25%."
+            ]
+        },
+        {
+            "years": "2017 — 2018",
+            "role": "Technology Officer",
+            "employer": "AZ Business Services",
+            "duties": [
+                "Maintaining and managing technology solutions.",
+                "IT Project Management duties.",
+                "Increased work efficiency by 40%"
+            ]
+        }
+    ],
+    "articles": [
+        {
+            "title": " 5 Tips to stay safe online",
+            "year": "18 Oct 2024",
+            "link": "www.youtube.com/genial-ingele",
+            "type": "ARTICLE"
+        },
+        {
+            "title": "The internet archive is down",
+            "year": "18 Jan 2022",
+            "link": "www.youtube.com/genial-ingele",
+            "type": "VIDEO"
+        },
+        {
+            "title": "How to build an HTML website",
+            "year": "18 Jan 2022",
+            "link": "www.linkedin.com/genial-ingele",
+            "type": "E-BOOK"
+        },
+        {
+            "title": "How to build an HTML website",
+            "year": "18 Jan 2022",
+            "link": "www.linkedin.com/genial-ingele",
+            "type": "ARTICLE"
+        },
+        {
+            "title": "How to build an HTML website",
+            "year": "18 Jan 2022",
+            "link": "www.linkedin.com/genial-ingele",
+            "type": "ARTICLE"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Template Website (001)",
+            "description": "Clean template for your business.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "SIEM Tool",
+            "description": "For monitoring security events.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "CV Builder",
+            "description": "Design your CV today.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Income Tax Calulator",
+            "description": "Easy-to-use tax calculator",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Home Loan Calculator",
+            "description": "Estimate your home loans.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "CrazeQuiz",
+            "description": "Fun quiz for family and work.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Games"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Plate & Post (e-Recipes)",
+            "description": "Online recipes platform.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Support Center",
+            "description": "Manage your client tickets.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        }
+    ],
+    "certs_img": [
+        {
+            "title": "google-cybersecurity-certificate",
+            "url": "/images/google-cybersecurity-certificate.png"
+        },
+        {
+            "title": "certified-in-cybersecurity-cc",
+            "url": "/images/certified-in-cybersecurity-cc.png"
+        },
+        {
+            "title": "comptia-security-ce-certification",
+            "url": "/images/comptia-security-ce-certification.png"
+        }
+    ]
+}
