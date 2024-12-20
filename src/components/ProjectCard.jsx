@@ -6,7 +6,8 @@ function ProjectCard(props) {
         <>
             <div className="projectCard">
                 <div>
-                <img src="images/projectCardPlaceHolder.png"></img>
+
+                { <img src={props.projects.image[0]} alt={props.projects.title} title={props.projects.title} /> }
                 </div>
                 
                 <section>

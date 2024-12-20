@@ -70,23 +70,24 @@
         {
             "title": "Template Website (001)",
             "description": "Clean template for your business.",
-            "year": "2022",
+            "year": "2024",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://genialingele.github.io/templateWebsite001/",
+                "https://github.com/genialingele/templateWebsite001"
+
             ],
             "image": [
-                ""
+                "/projectImgs/templateWebsite(001).png"
             ],
             "techstack": [
-                ""
+                "HTML", "CSS", "JS"
             ],
-            "category": "Featured",
-            "additional_info": "More info about the project",
+            "category": [
+                "Featured", "Websites"
+            ],
+            "additional_info": "",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "Live"
             ]
         },
         {
@@ -95,14 +96,15 @@
             "year": "2022",
             "links": [
                 "www.linkedin.com/genial-ingele"
-            ],
-            "image": [
+            ],            "image": [
                 ""
             ],
             "techstack": [
                 ""
             ],
-            "category": "Utility",
+            "category": [
+                "Utility"
+            ],
             "additional_info": "More info about the project",
             "status": [
                 "Live",
@@ -124,7 +126,9 @@
             "techstack": [
                 ""
             ],
-            "category": "Featured",
+            "category": [
+                "Featured", "Utility"
+            ],
             "additional_info": "More info about the project",
             "status": [
                 "Live",
@@ -146,7 +150,9 @@
             "techstack": [
                 ""
             ],
-            "category": "Featured",
+            "category": [
+                "Featured", "Utility"
+            ],
             "additional_info": "More info about the project",
             "status": [
                 "Live",
@@ -168,7 +174,9 @@
             "techstack": [
                 ""
             ],
-            "category": "Utility",
+            "category": [
+                "Utility"
+            ],
             "additional_info": "More info about the project",
             "status": [
                 "Live",
@@ -190,73 +198,101 @@
             "techstack": [
                 ""
             ],
-            "category": "Games"
-        ,
-        "additional_info": "More info about the project",
-        "status": [
-            "Live",
-            "In development",
-            "Coming soon",
-            "Inactive"
-        ]
-    },
-    {
-        "title": "Plate & Post (e-Recipes)",
-        "description": "Online recipes platform.",
-        "year": "2022",
-        "links": [
-            "www.linkedin.com/genial-ingele"
-        ],
-        "image": [
-            ""
-        ],
-        "techstack": [
-            ""
-        ],
-        "category": "Fullstack",
-        "additional_info": "More info about the project",
-        "status": [
-            "Live",
-            "In development",
-            "Coming soon",
-            "Inactive"
-        ]
-    },
-    {
-        "title": "Support Center",
-        "description": "Manage your client tickets.",
-        "year": "2022",
-        "links": [
-            "www.linkedin.com/genial-ingele"
-        ],
-        "image": [
-            ""
-        ],
-        "techstack": [
-            ""
-        ],
-        "category": "Fullstack",
-        "additional_info": "More info about the project",
-        "status": [
-            "Live",
-            "In development",
-            "Coming soon",
-            "Inactive"
-        ]
-    }
-],
-"certs_img": [
-    {
-        "title": "google-cybersecurity-certificate",
-        "url": "/images/google-cybersecurity-certificate.png"
-    },
-    {
-        "title": "certified-in-cybersecurity-cc",
-        "url": "/images/certified-in-cybersecurity-cc.png"
-    },
-    {
-        "title": "comptia-security-ce-certification",
-        "url": "/images/comptia-security-ce-certification.png"
-    }
-]
+            "category": [
+                "Games"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Plate & Post (e-Recipes)",
+            "description": "Online recipes platform.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Fullstack"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        },
+        {
+            "title": "Support Center",
+            "description": "Manage your client tickets.",
+            "year": "2022",
+            "links": [
+                "www.linkedin.com/genial-ingele"
+            ],
+            "image": [
+                ""
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Fullstack"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live",
+                "In development",
+                "Coming soon",
+                "Inactive"
+            ]
+        }
+    ],
+    "certs_img": [
+        {
+            "title": "google-cybersecurity-certificate",
+            "url": "/images/google-cybersecurity-certificate.png"
+        },
+        {
+            "title": "certified-in-cybersecurity-cc",
+            "url": "/images/certified-in-cybersecurity-cc.png"
+        },
+        {
+            "title": "comptia-security-ce-certification",
+            "url": "/images/comptia-security-ce-certification.png"
+        }
+    ],
+    "icons": [
+        {
+            "name": "Python",
+            "url": "/icons/devicons/python-svgrepo-com.svg"
+        },
+        {
+            "name": "PHP",
+            "url": "/icons/devicons/php01-svgrepo-com.svg"
+        },
+
+        {
+            "name": " Javascript",
+            "url": "/icons/devicons/javascript-155-svgrepo-com.svg"
+        },
+        {
+            "name": "React",
+            "url": "/icons/devicons/react-svgrepo-com.svg"
+        },
+        {
+            "name": "HTML",
+            "url": "/icons/devicons/html5-02-svgrepo-com.svg"
+        }
+    ]
 }

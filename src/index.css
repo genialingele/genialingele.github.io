@@ -80,9 +80,11 @@
   --border-md: 2px solid var(--negative-colour);
   --border-lg: 5px solid var(--negative-colour);
 
+  --font-size-ss: 0.5em;
   --font-size-s: 0.8em;
   --font-size-sm: 1.4em;
   --font-size-md: 1.6em;
+  --font-size-lg: 2em;
   --font-size-xl: 2.5em;
 
 }
@@ -93,41 +95,34 @@
   font-size: var(--font-size-s);
   display: flex;
   text-transform: uppercase;
-  position:absolute;
+  position:fixed;
   justify-content: center;
   margin-top: var(--spacing-lg);
   width: var(--width-full);
   gap: var(--spacing-md); 
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  z-index: 1;
 }
 
-a {
-
-  text-decoration: dotted;
+.menu2 button{ 
+  background-color: transparent;
+  text-transform: uppercase;
+  font-style: normal;
   color: var(--negative-colour);
   padding: var(--spacing-md);
   text-align: center;
-  letter-spacing: var(--one-space);
+  letter-spacing: var(--spacing-s);
   border-radius: var(--radius-md);
+  border: var(--no-space);
   box-shadow: var(--shadow-sm);
+  font-size: 12pt;
+  font-weight: 100;
 }
 
-a:visited {
-  text-decoration: none;
-  color: var(--negative-colour);
-}
-
-a:hover {
-  text-decoration: none;
-  color: var(--primary-colour);
+.menu2 button:hover{
   background-color: var(--secondary-colour-darker);
-}
-
-a:active {
-  text-decoration: none;
   color: var(--primary-colour);
-  background-color: var(--secondary-colour-darker);
-
+  transition: all ease-in-out 0.2s;
 }
 
 h1 {
@@ -153,9 +148,19 @@ button:hover{
   background-color: var(--negative-colour);
 }
 
+a{
+  text-decoration: none;
+}
+
+
 body {
   background-color: var(--plain-white-colour);
   margin: var(--no-space);
+}
+
+span{
+  font-size: var(--font-size-s);
+  margin-inline: var(--spacing-s);
 }
 
 footer {
@@ -190,7 +195,7 @@ footer {
   
 }
 
-.projectsMenu a {
+.projectsMenu a, button {
   border-radius: var(--no-space);
   background-color: var(--plain-white-colour);
   margin: var(--no-space);
@@ -198,7 +203,7 @@ footer {
   font-style: italic;
 }
 
-.projectsMenu a:hover {
+.projectsMenu a:hover, button {
   border-radius: var(--no-space);
   background-color: var(--primary-colour);
   margin: var(--no-space);
@@ -209,7 +214,7 @@ footer {
 
 }
 
-.projectsMenu a:active{
+.projectsMenu a.active, button.active{
   border-radius: var(--no-space);
   background-color: var(--primary-colour);
   margin: var(--no-space);
@@ -230,11 +235,17 @@ footer {
   background-color: var(--plain-white-colour);
   display: flex;
   flex-direction: column;
-  width: 250; /* I know, It's weird but yeah. We leave it alone*/
+  width: 350px; /* I know, It's weird but yeah. We leave it alone*/
   box-shadow: var(--shadow-sm);  
   align-items: center ;
   border-radius: var(--radius-md);
   padding: var(--spacing-sm);
+  overflow: hidden;
+
+}
+
+.projectCard img {
+  width: var(--width-full);
 
 }
 
@@ -263,13 +274,12 @@ footer {
 
 }
 .projectLightBox section:nth-of-type(2){
-
-  overflow: hidden;
+  overflow: auto;
   width: var(--width-xl);
 }
 
 .projectLightBox img{
- transform: translate(-50%);
+ transform: translate(0%);
 
 }
 
@@ -296,6 +306,19 @@ footer {
   justify-content: center;
   overflow:auto;
   padding: var(--spacing-xl);
+}
+
+.closeButton {
+  position: absolute;
+  top: 30px;
+  right:30px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: var(--radius-lg);
+  font-style: normal;
+  padding: var(--spacing-lg);
 }
 
 .experienceCard {
@@ -374,29 +397,11 @@ footer {
 
 
 .skill {
-  padding-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
 }
 
 .skills {
   display: flex;
-
-}
-
-.skill a {
-  background-color: none;
-  color: var(--secondary-colour);
-  padding: var(--spacing-sm);
-  margin: var(--one-space);
-  font-size: var(--font-size-lg);
-  box-shadow: var(--no-shadow);
-}
-
-.skill a:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: var(--secondary-colour-darker);
-  margin: var(--spacing-sm);
-  font-size: var(--font-size-lg);
-  box-shadow: var(--shadow-sm);
 }
 
 
@@ -416,6 +421,8 @@ footer {
   background-image: radial-gradient(ellipse at left, var(--primary-colour-rgba), var(--plain-white-colour));
   height: 100vh;
   border-bottom-left-radius: var(--radius-xl);
+  text-decoration: none;
+  padding-bottom: var(--spacing-lg);
 
 }
 
@@ -449,26 +456,29 @@ iframe{
 /* PHONE LAYOUTS */
 @media (min-width : 360px) and (max-width : 480px) {
   /* USE JS For Hamburger menu (display block or flex column direction) */
+  .root{
+    font-size: var(--font-size-s) ;
+  }
   .menu2 {
     background-color:var(--primary-colour);
     font-size: var(--font-size-s);
-    display: block;
+    display: flex;
     text-transform: uppercase;
-    position:relative;
+    position:fixed;
     justify-content: center;
-    padding-top: var(--spacing-lg);
+    padding-top: var(--spacing-xl);
     margin: var(--no-space);
-    height: var(--height-sm);
-    font-size: var(--font-size-sm);
-    display: none; /* For now we will hide the menu until we can show it nicely */
- 
+    height: var(--height-s);
+    font-size: 11pt;
+    padding: var(--spacing-s);
+    align-items: center;
+    display: none;
+
   }
   .menu2 a{
-    padding: var(--spacing-s);
+    padding: var(--no-space);
     box-shadow: var(--no-shadow);
-    
- 
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
   }
 
   .avatar {
@@ -495,24 +505,26 @@ iframe{
   }
 
   h1 {
-    font-size: var(--font-size-);
+    font-size: var(--font-size-lg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
-    line-height: var(--spacing-lg);
+    line-height: var(--spacing-md);
+  }
+  h2{
+    font-size: var(--font-size-sm);
   }
   
-
   
   .two_equal_columns_gradient {
     display: flex;
     justify-content: center;
     height: var(--width-full);
-    margin-top: var(--spacing-xxl);
+    margin-top: var(--spacing-xl);
     flex-direction: column;
     align-items: center;
     position: relative;
     width: var(--width-full);
-    background-image: radial-gradient(ellipse at left, var(--primary-colour-rgba), var(--plain-white-colour));
+    background-image: radial-gradient(ellipse at left, var(--plain-white-colour), var(--plain-white-colour));
   }
 
   .two_equal_columns_gradient section:nth-of-type(2){
@@ -534,32 +546,27 @@ iframe{
     
   }
   
-  .projectsMenu a {
+  .projectsMenu button {
     border-radius: var(--no-space);
-    background-color: var(--plain-white-colour);
+    background-color: var(--negative-colour);
     margin: var(--spacing-sm);
-    padding: var(--spacing-sm);
+    padding: var(--spacing-md);
     font-style:normal;
     text-transform: uppercase;
     box-shadow: var(--shadow-sm);
 
   }
   
-  .projectsMenu a:hover,
-  button:hover {
+  .projectsMenu  button:hover {
     border-radius: var(--no-space);
     background-color: var(--primary-colour);
-    margin: var(--no-space);
-    padding: var(--spacing-s);
-    color: var(--plain-white-colour);
+
   }
   
-  .projectsMenu a:active,
-  button:active {
+  .projectsMenu  button.active {
     border-radius: var(--no-space);
     background-color: var(--primary-colour);
     margin: var(--no-space);
-    padding: var(--spacing-sm);
     color: var(--plain-white-colour);
   }
 
@@ -574,7 +581,6 @@ iframe{
     scrollbar-width:thin;
     scrollbar-color: var(--primary-colour);
     scroll-snap-type: x mandatory;
-    
   }
   
 
@@ -592,12 +598,10 @@ iframe{
   }
 
   
-
   .experienceCard {
     display: flex;
     gap: var(--spacing-s);
     padding: var(--spacing-s);
-    font-size: var(--font-size-sm);
   }
 
   .experienceCard a{
@@ -648,35 +652,23 @@ iframe{
     font-size: var(--font-size-s);
   }
 
-  .skill {
+  .skillPill {
     padding-bottom: var(--spacing-lg);
-    
+    display: flex;
+
+  }
+
+  .skillPill span:hover{
+    background-color: var(--primary-colour-lighter);
+    padding: var(--one-space);
   }
   
   .skills {
     display: flex;
     width: var(--width-sm);
-    font-size: var(--font-size-s);
-  
   }
   
-  .skill a {
-    background-color: none;
-    color: var(--secondary-colour);
-    padding: var(--spacing-sm);
-    margin: var(--one-space);
-    font-size: var(--font-size-lg);
-    box-shadow: var(--no-shadow);
-  }
-  
-  .skill a:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: var(--secondary-colour-darker);
-    margin: var(--spacing-sm);
-    font-size: var(--font-size-lg);
-    box-shadow: var(--shadow-sm);
-  }
-  
+
 
 
   

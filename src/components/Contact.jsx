@@ -2,7 +2,7 @@ function Contact() {
 
     return (
         <>
-            <div className="two_equal_columns">
+            <div className="two_equal_columns" id="contact">
             <section>
                 <h2>Contact details</h2>
                 <p><strong>Feel free to contact me directly or use the form.</strong></p>

@@ -5,6 +5,8 @@ import Experience from "./components/Experience";
 import Articles from "./components/Articles";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 
 
