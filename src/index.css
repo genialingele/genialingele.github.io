@@ -393,13 +393,14 @@ footer {
 
 #articles {
   background-color: var(--primary-colour);
-  background-image: url("/icons/presentation-screen-svgrepo-com.svg");
+  background-image: url("/icons/code-merge-svgrepo-com.svg");
   background-repeat: no-repeat;
   background-position: 75% 75%;
   background-size: contain;
   padding: var(--spacing-lg);
   background-blend-mode: multiply;
   background-attachment: fixed;
+  box-shadow: inset 0px 0px 10px 0px var(--negative-colour);
 }
 
 #articles a {
