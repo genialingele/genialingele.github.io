@@ -164,7 +164,8 @@ a:visited{
 
 a:hover{
   text-decoration: none;
-  color: var(--primary-colour)
+  color: var(--primary-colour);
+  transition: all ease-in-out 0.1s;
 }
 
 body {
@@ -356,6 +357,7 @@ footer {
   gap: var(--spacing-lg);
   box-shadow: var(--shadow-sm);
   border-radius: var(--radius-lg);
+  transition:  background-color ease-in-out 0.3s;
 }
 
 
