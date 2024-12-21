@@ -92,12 +92,12 @@
                 "/projectImgs/income_tax_calculator-screenshot-01.png"
             ],
             "techstack": [
-                ""
+                "HTML", "CSS", "JS"
             ],
             "category": [
                 "Featured", "Utility"
             ],
-            "additional_info": "More info about the project",
+            "additional_info": "Based on calculations in 2024 (SARS)",
             "status": [
                 "Live"
             ]
