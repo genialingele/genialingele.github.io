@@ -50,6 +50,7 @@ function ProjectLightBox(props) {
                         props.project.additional_info && <span><span className="fa fa-info-circle"></span>
                             {props.project.additional_info}</span>
                     }</p>
+                    <hr></hr>
 
                     <p className={getStatusClass(props.project.status)}>{props.project.status}</p>
                 </section>

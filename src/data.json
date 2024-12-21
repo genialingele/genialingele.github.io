@@ -262,14 +262,14 @@
         },
         {
             "title": "Plate & Post (e-Recipes)",
-            "description": "Online recipes platform.",
+            "description": "Online recipes platform for all creators.",
             "year": "26 Jun 2024",
             "links": [
-                "https://github.com/genialingele/",
-                "https://github.com/genialingele/"
+                "https://github.com/genialingele/cookbook",
+                "https://github.com/genialingele/cookbook"
             ],
             "image": [
-                "/projectImgs/big_wide_placeholder.png"
+                "/projectImgs/plate_and_post-screenshot-01.png"
             ],
             "techstack": [
                 "PHP", "JS", "HTML", "CSS"
