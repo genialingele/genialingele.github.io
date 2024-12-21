@@ -37,47 +37,82 @@
     "articles": [
         {
             "title": " 5 Tips to stay safe online",
-            "year": "18 Oct 2024",
-            "link": "www.youtube.com/genial-ingele",
+            "year": "31 Oct 2024",
+            "link": "https://www.linkedin.com/pulse/five-essential-tips-digital-vigilance-genial-ingele-yi9df",
             "type": "ARTICLE"
         },
         {
             "title": "The internet archive is down",
-            "year": "18 Jan 2022",
-            "link": "www.youtube.com/genial-ingele",
-            "type": "VIDEO"
+            "year": "11 Oct 2022",
+            "link": "https://www.linkedin.com/pulse/internet-archive-down-genial-ingele-m4tif",
+            "type": "ARTICLE"
         },
         {
-            "title": "How to build an HTML website",
-            "year": "18 Jan 2022",
-            "link": "www.linkedin.com/genial-ingele",
+            "title": "E-commerce alternative.",
+            "year": "29 Aug 2022",
+            "link": "https://ndolena.co.za/before-you-spend-thousands-on-an-e-commerce-website/",
+            "type": "ARTICLE"
+        },
+        {
+            "title": "Contact forms are your allies",
+            "year": "22 Aug 2022",
+            "link": "https://ndolena.co.za/contact-forms-are-your-allies/",
+            "type": "ARTICLE"
+        },
+        {
+            "title": "[E-book] How to create a simple HTML website.",
+            "year": "13 Feb 2022",
+            "link": "https://ndolena.co.za/e-book-how-to-create-a-simple-html-website-free-e-book/",
             "type": "E-BOOK"
         },
         {
-            "title": "How to build an HTML website",
-            "year": "18 Jan 2022",
-            "link": "www.linkedin.com/genial-ingele",
+            "title": "12 Online Growth tips for small businesses",
+            "year": "03 Aug 2022",
+            "link": "https://www.researchgate.net/publication/362468806_12_Online_Growth_tips_for_small_businesses",
             "type": "ARTICLE"
         },
         {
-            "title": "How to build an HTML website",
-            "year": "18 Jan 2022",
-            "link": "www.linkedin.com/genial-ingele",
+            "title": "Developmental stages of a business or company",
+            "year": "8 Feb 2021",
+            "link": "https://www.linkedin.com/pulse/developmental-stages-business-company-genial-ingele",
             "type": "ARTICLE"
         }
+
     ],
     "projects": [
         {
-            "title": "Template Website (001)",
-            "description": "Clean template for your business.",
-            "year": "2024",
+            "title": "Income Tax Calculator",
+            "description": "Easy-to-use income tax calculator",
+            "year": "01 March 2024",
             "links": [
-                "https://genialingele.github.io/templateWebsite001/",
-                "https://github.com/genialingele/templateWebsite001"
+                "https://genialingele.github.io/tax_calculator/",
+                "https://github.com/genialingele/tax_calculator/"
+            ],
+            "image": [
+                "/projectImgs/income_tax_calculator-screenshot-01.png"
+            ],
+            "techstack": [
+                ""
+            ],
+            "category": [
+                "Featured", "Utility"
+            ],
+            "additional_info": "More info about the project",
+            "status": [
+                "Live"
+            ]
+        },
+        {
+            "title": "Ndolena Design SA website",
+            "description": "A marketing agency in South Africa.",
+            "year": "18 May 2018",
+            "links": [
+                "https://ndolena.co.za/",
+                "https://ndolena.co.za/contact"
 
             ],
             "image": [
-                "/projectImgs/templateWebsite(001).png"
+                "/projectImgs/ndolena-design_sa-screenshot-01.png"
             ],
             "techstack": [
                 "HTML", "CSS", "JS"
@@ -91,98 +126,115 @@
             ]
         },
         {
+            "title": "Template Website (001)",
+            "description": "Clean template for your business.",
+            "year": "18 Dec 2024",
+            "links": [
+                "https://genialingele.github.io/templateWebsite001/",
+                "https://github.com/genialingele/templateWebsite001"
+
+            ],
+            "image": [
+                "/projectImgs/templateWebsite(001)-screenshot-01.png"
+            ],
+            "techstack": [
+                "HTML", "CSS", "JS"
+            ],
+            "category": [
+                "Featured", "Websites"
+            ],
+            "additional_info": "This was built using pure HTML, CSS, and JS.",
+            "status": [
+                "Live"
+            ]
+        },
+        {
             "title": "SIEM Tool",
-            "description": "For monitoring security events.",
-            "year": "2022",
+            "description": "For cyber security analysts (SOC).",
+            "year": "10 Jan 2025",
             "links": [
                 "www.linkedin.com/genial-ingele"
             ],            "image": [
-                ""
+                "/projectImgs/siem_tool-screenshot-01.png"
             ],
             "techstack": [
                 ""
             ],
             "category": [
-                "Utility"
+                "Utility",
+                "Fullstack"
             ],
             "additional_info": "More info about the project",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "Coming soon"
             ]
         },
         {
             "title": "CV Builder",
-            "description": "Design your CV today.",
+            "description": "A simple, dynamic CV/Resume builder.",
             "year": "2022",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://genialingele.github.io/cv_builder/",
+                "https://github.com/genialingele/cv_builder"
             ],
             "image": [
-                ""
+                "/projectImgs/cv_builder-screenshot-01.png"
             ],
             "techstack": [
-                ""
+                "HTML", "CSS", "JS"
             ],
             "category": [
                 "Featured", "Utility"
             ],
-            "additional_info": "More info about the project",
+            "additional_info": "",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "In development"
             ]
         },
         {
-            "title": "Income Tax Calulator",
-            "description": "Easy-to-use tax calculator",
-            "year": "2022",
+            "title": "Ndolena Design sarl website",
+            "description": "A marketing agency in D.R.Congo",
+            "year": "2024",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://ndolena.com/",
+                "https://ndolena.com/about"
+
             ],
             "image": [
-                ""
+                "/projectImgs/ndolena-design_drc-screenshot-01.png"
             ],
             "techstack": [
-                ""
+                "WordPress", "PHP",  "JS"
             ],
             "category": [
-                "Featured", "Utility"
+                "Websites"
             ],
-            "additional_info": "More info about the project",
+            "additional_info": "",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "Live"
             ]
         },
+        
         {
             "title": "Home Loan Calculator",
             "description": "Estimate your home loans.",
             "year": "2022",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://genialingele.github.io/bond_calculator/",
+                "https://github.com/genialingele/bond_calculator"
             ],
             "image": [
-                ""
+                "/projectImgs/bond_calculator-screenshot-01.png"
             ],
             "techstack": [
-                ""
+                "HTML", "CSS", "JS"
             ],
             "category": [
                 "Utility"
             ],
             "additional_info": "More info about the project",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "In development"
             ]
         },
         {
@@ -190,70 +242,65 @@
             "description": "Fun quiz for family and work.",
             "year": "2022",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://github.com/genialingele/",
+                "https://github.com/genialingele/"
+
             ],
             "image": [
-                ""
+                "/projectImgs/big_wide_placeholder.png"
             ],
             "techstack": [
-                ""
+                "Python", "Flask", "Tkinter"
             ],
             "category": [
                 "Games"
             ],
             "additional_info": "More info about the project",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "Coming soon"
             ]
         },
         {
             "title": "Plate & Post (e-Recipes)",
             "description": "Online recipes platform.",
-            "year": "2022",
+            "year": "26 Jun 2024",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://github.com/genialingele/",
+                "https://github.com/genialingele/"
             ],
             "image": [
-                ""
+                "/projectImgs/big_wide_placeholder.png"
             ],
             "techstack": [
-                ""
+                "PHP", "JS", "HTML", "CSS"
             ],
             "category": [
                 "Fullstack"
             ],
-            "additional_info": "More info about the project",
+            "additional_info": "",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
-                "Inactive"
+                "In development"
             ]
         },
         {
             "title": "Support Center",
             "description": "Manage your client tickets.",
-            "year": "2022",
+            "year": "26 Jan 2025",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://github.com/genialingele/",
+                "https://github.com/genialingele/"
             ],
             "image": [
-                ""
+                "/projectImgs/big_wide_placeholder.png"
             ],
             "techstack": [
-                ""
+                "PHP", "JS", "HTML", "CSS", "Laravel"
             ],
             "category": [
                 "Fullstack"
             ],
-            "additional_info": "More info about the project",
+            "additional_info": "I'm still working on this project.",
             "status": [
-                "Live",
-                "In development",
-                "Coming soon",
                 "Inactive"
             ]
         }

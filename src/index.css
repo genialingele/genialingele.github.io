@@ -23,6 +23,10 @@
   --plain-white-colour: #FFFFFF;
   --light-colour: #EEEEEE;
 
+  --pill-colour: var(--primary-colour-lighter);
+  --pill-colour-negative: #ff6e6e;
+  --pill-colour-positive: #90ff90;
+
   /*SPACING */
   --one-space: 1px;
   --spacing-s: 2px;
@@ -150,8 +154,18 @@ button:hover{
 
 a{
   text-decoration: none;
+  color: var(--negative-colour)
 }
 
+a:visited{
+  text-decoration: none;
+  color: var(--negative-colour)
+}
+
+a:hover{
+  text-decoration: none;
+  color: var(--primary-colour)
+}
 
 body {
   background-color: var(--plain-white-colour);
@@ -244,6 +258,12 @@ footer {
 
 }
 
+.projectCardImage{
+  width: var(--width-full);
+  height: 150px;
+  overflow:hidden;
+}
+
 .projectCard img {
   width: var(--width-full);
 
@@ -256,7 +276,7 @@ footer {
 }
 
 .projectLightBox {
-  background-color: var(--light-colour);
+  background-color: var(--plain-white-colour);
   border-radius: var(--radius-lg);
   padding: var(--spacing-lg);
   box-shadow: var(--shadow-sm);
@@ -271,6 +291,8 @@ footer {
   box-shadow: var(--shadow-sm);
   padding: var(--spacing-xl);
   width: var(--width-md);
+  border-top-left-radius: var(--radius-md) ;
+  border-bottom-left-radius: var(--radius-md) ;
 
 }
 .projectLightBox section:nth-of-type(2){
@@ -312,13 +334,14 @@ footer {
   position: absolute;
   top: 30px;
   right:30px;
-  background: none;
+  background-color: var(--pill-colour-negative);
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   font-style: normal;
   padding: var(--spacing-lg);
+  z-index: 1001;
 }
 
 .experienceCard {
@@ -451,6 +474,44 @@ iframe{
 
 }
 
+/* Resuable Pills for skills, tech stack, etc. */
+
+.pill{
+  padding: var(--spacing-sm);
+  background-color: var(--pill-colour);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  width: fit-content;
+  font-size: var(--font-size-s);
+  text-align: center;
+}
+
+.pillContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.pillPositive{
+  padding: var(--spacing-sm);
+  background-color: var(--pill-colour-positive);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  width: fit-content;
+  font-size: var(--font-size-s);
+  text-align: center;
+}
+
+.pillNegative{
+  padding: var(--spacing-sm);
+  background-color: var(--pill-colour-negative);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  width: fit-content;
+  font-size: var(--font-size-s);
+  text-align: center;
+}
+
 /* ---------- RESPONSIVE LAYOUTS ---------------- */
 
 /* PHONE LAYOUTS */
@@ -519,7 +580,7 @@ iframe{
     display: flex;
     justify-content: center;
     height: var(--width-full);
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -575,28 +636,85 @@ iframe{
     gap: var(--spacing-lg);
     justify-content: center;  
     margin-bottom: var(--spacing-xl);
-    flex-wrap:nowrap;
-    overflow-x:auto;
+    flex-wrap:wrap;
     padding: var(--spacing-xl);
-    scrollbar-width:thin;
-    scrollbar-color: var(--primary-colour);
-    scroll-snap-type: x mandatory;
+
   }
   
 
   .projectCard {
     background-color: var(--plain-white-colour);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: var(--width-card-md);
     box-shadow: var(--shadow-sm);  
     align-items: center ;
     border-radius: var(--radius-md);
     padding: var(--spacing-sm);
-    scroll-snap-align: start;
     box-sizing: border-box;
+    overflow: hidden;
+
   }
 
+  .projectLightBox {
+    background-color: var(--plain-white-colour);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    width: var(--width-full);
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    flex-direction: column;
+    
+  }
+  .projectLightBox section:nth-of-type(1){
+    box-shadow: var(--no-shadow);
+    padding: var(--spacing-sm);
+    width: var(--width-full);
+    border-top-left-radius: var(--radius-md) ;
+    border-bottom-left-radius: var(--radius-md) ;
+    border-radius: var(--radius-md);
+  
+  }
+  .projectLightBox section:nth-of-type(2){
+    display: none;
+    overflow: auto;
+    width: var(--width-full);
+  }
+  
+  .projectLightBox img{
+   transform: translate(0%);
+  
+  }
+  
+  .lightboxOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--width-full);
+    height: var(--width-full);
+    background: var(--transparent-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .lightboxContent {
+    background-color: var(--primary-colour-lighter);
+    background-image: radial-gradient(ellipse at bottom right, var(--primary-colour-rgba), var(--plain-white-colour));
+    border-radius: var(--radius-md);
+    max-width: var(--width-xl);
+    max-height: var(--height-xl);
+    display: flex;
+    justify-content: center;
+    overflow:auto;
+    padding: var(--spacing-xl);
+  }
+  
   
   .experienceCard {
     display: flex;

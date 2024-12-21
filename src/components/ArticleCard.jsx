@@ -9,7 +9,7 @@ function ArticleCard(props) {
                 </section>
                 <section>
                     <p><strong>{props.articles.title}</strong></p>
-                    <a href={props.articles.link}>{props.articles.link}</a>
+                    <a href={props.articles.link}><u><span className='fa bi-globe'> </span> <em>Read more about it.</em></u></a>
                 </section>
             </div>
         </>

@@ -1,7 +1,7 @@
 const coding_languages = [
     { "name": "PHP", "level": "Professional" },
     { "name": "Python", "level": "Intermediate" },
-    { "name": "HTML, CSS, JavaScript", "level": "Intermediate" },
+    { "name": "HTML, CSS, JS", "level": "Intermediate" },
     { "name": "Java", "level": "Beginner" },
     { "name": "SQL", "level": "Professional" },
     { "name": "C#, C++", "level": "Beginner" },
@@ -19,9 +19,12 @@ const frameworks = [
     { "name": "React", "level": "Intermediate" },
     { "name": "Laravel", "level": "Beginner" },
     { "name": ".NET", "level": "Beginner" },
-    { "name": "Tkinter, Flask, Pandas", "level": "Intermediate" },
+    { "name": "Tkinter", "level": "Intermediate" },
+    { "name": "Flask", "level": "Beginner" },
+    { "name": "Pandas", "level": "Beginner" },
     { "name": "Bootstrap", "level": "Professional" },
     { "name": "Node.Js", "level": "Beginner" },
+
 ];
 
 const tools = [
@@ -40,56 +43,49 @@ function SkillsGroup() {
         <>
 
             <div>
+
                 <h4>Programming Languages</h4>
-                <ul>
+                <div className="pillContainer">
                     {
                         coding_languages.map((lang, id) => (
-                            <li key={id}>{lang.name} </li>)
-
+                            <span key={id} className="pill">{lang.name} </span>)
                         )}
-                </ul>
+
+                </div>
 
                 <h4>Frameworks</h4>
-                <ul>
+
+                <div className="pillContainer">
                     {
                         frameworks.map((framework, id) => (
-                            <li key={id}>{framework.name}</li>)
-
-                        )}
-
-                </ul>
+                            <span key={id} className="pillPositive">{framework.name}</span>
+                        ))
+                    }
+                </div>
 
 
                 <h4>Tools</h4>
-                <ul>
+                <div className="pillContainer">
+
                     {
                         tools.map((tool, id) => (
-                            <li key={id}>{tool.name}</li>)
+                            <span key={id} className="pill">{tool.name}</span>)
                         )}
-                </ul>
+                </div>
+
 
                 <h4>Spoken languages</h4>
-                <ul>
+                <div className="pillContainer">
                     {
                         spoken_languages.map((lang, id) => (
-                            <li key={id}>{lang.name}: {lang.level}</li>
+                            <span key={id} className="pillPositive">{lang.name}: {lang.level}</span>
                         ))
                     }
-                </ul>
-
-
-
+                </div>
 
             </div>
 
-
-
-
-
-
         </>
-
-
 
     );
 

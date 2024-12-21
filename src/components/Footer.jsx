@@ -3,12 +3,11 @@ function Footer(){
     return(
         <>
         <footer >
-            <p> For graphic design and video editing, 
-                I have more than 5 years of commercial experience with 
-                Adobe: Photoshop, Illustrator, After Effects and more than 5 years with WordPress.
-                I believe satisfyingly that I can change the way we do business in Africa.
-                I want to bring our country up to international standards and even better. 
-                I believe we can modernize the country by applying our creative thinking.</p>
+            <p> Genial Ingele &copy; 2024. I am a business-minded, cybersecurity-minded, 
+                full stack developer and researcher who uses creativity and logic to resolve real world problems.
+                I have years of experience in software and web development, graphic design, and marketing. 
+                I have written articles that will definitely catch your eye.
+                I am on LinkedIn, Twitter, ResearchGate, and Ndolena. </p>
         </footer>
 
         </>

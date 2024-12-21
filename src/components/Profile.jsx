@@ -17,7 +17,7 @@ function Profile() {
                
                 <section>
                     <h1>Genial Ingele </h1>
-                    <h2><em> Software Developer. </em></h2>
+                    <h2><em> Software Developer. <br></br> Cybresecurity Analyst. </em></h2>
 
                     <div className="skillPill">
                         {

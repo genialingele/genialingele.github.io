@@ -2,6 +2,10 @@ import ProjectsGroup from "./ProjectsGroup";
 
 
 function Projects() {
+    const handleClick = (e, link) => {
+        e.preventDefault();
+        window.open(link, "_blank");
+    };
 
     return (
         <>
@@ -9,7 +13,7 @@ function Projects() {
             <div className="projects" id="projectsPage">
                 <h2>My Recent Projects </h2>
                 <ProjectsGroup />
-                <button>View More Projects</button>
+                <button onClick={(e) => handleClick(e,"https://github.com/genialingele") }>View More Projects</button>
 
             </div>
 
