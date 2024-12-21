@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function ArticleCard(props) {
     return (
         <>
-            <div className="experienceCard">
+            <div className="articleCard">
                 <section>
                     <p>{props.articles.year}</p>
                 </section>

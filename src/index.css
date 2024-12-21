@@ -718,6 +718,7 @@ iframe{
   }
   
   
+  
   .experienceCard {
     display: flex;
     gap: var(--spacing-s);
@@ -788,6 +789,29 @@ iframe{
     width: var(--width-sm);
   }
   
+  .articleCard {
+    display: flex;
+    gap: var(--spacing-s);
+    padding: var(--spacing-s);
+    font-size: 0.71em;
+  }
+
+  .articleCard a{
+    color: black;
+  }
+
+  .articleCard a:hover{
+    color: var(--primary-colour-darker);
+  }
+  
+  .articleCard:hover {
+    display: flex;
+    background-color: var(--plain-white-colour);
+    gap: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-sm);
+  }
 
 
 
