@@ -3,6 +3,7 @@ function Footer() {
     return (
         <>
             <footer >
+                <img src="/images/genial_ingele_projects_white_rect-03.png" id="logo"></img>
                 <p> Genial Ingele &copy; 2024. I am a business-minded, cybersecurity-minded,
                     full stack developer and researcher who uses creativity and logic to resolve real world problems.
                     I have years of experience in software and web development, graphic design, and marketing.
