@@ -153,12 +153,12 @@
             "description": "For cyber security analysts (SOC).",
             "year": "10 Jan 2025",
             "links": [
-                "www.linkedin.com/genial-ingele"
+                "https://github.com/genialingele/"
             ],            "image": [
                 "/projectImgs/siem_tool-screenshot-01.png"
             ],
             "techstack": [
-                ""
+                "Python", "Tkinter"
             ],
             "category": [
                 "Utility",

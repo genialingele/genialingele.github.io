@@ -129,6 +129,10 @@
   transition: all ease-in-out 0.2s;
 }
 
+#menu_logo{
+  width: var(--width-s);
+}
+
 h1 {
   font-size: var(--font-size-xl);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

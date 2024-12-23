@@ -53,6 +53,7 @@ function HeaderTrans() {
         <>
             {/* MENU */}
             <div className="menu2">
+                
                 <button onClick={() => handleClick("home")}>Home</button>
                 <button onClick={() => handleClick("projectsPage")}>Projects</button>
                 <button onClick={() => handleClick("experience")}>Experience</button>
