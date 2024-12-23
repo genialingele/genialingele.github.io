@@ -574,6 +574,20 @@ iframe{
   text-align: center;
 }
 
+.moreProfiles{
+  margin-bottom: var(--spacing-xl);
+  font-weight: 400;
+
+}
+
+.moreProfiles a{
+  background-color: var(--light-colour);
+}
+
+.moreProfiles a:hover{
+  background-color: var(--light-colour);
+  color: var(--plain-white-colour);
+}
 /* ---------- RESPONSIVE LAYOUTS ---------------- */
 
 /* PHONE LAYOUTS */
@@ -616,7 +630,6 @@ iframe{
   #avatar {
     width: var(--width-full);
     border-radius: var(--no-space);
-    
   }
 
   .two_equal_columns {
@@ -642,7 +655,7 @@ iframe{
     display: flex;
     justify-content: center;
     height: var(--width-full);
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-m);
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -804,12 +817,16 @@ iframe{
 
   #experience {
     background: var(--light-colour);
+    background-image: url("/icons/timing-belt-svgrepo-com.svg");
     border-top-right-radius: var(--radius-xl);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .certs {
     display: flex;
     gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
   }
   
   .certs img {
@@ -874,10 +891,6 @@ iframe{
     border-radius: var(--no-space);
     padding: var(--spacing-sm);
   }
-
-
-
-  
   
   
 }
