@@ -834,7 +834,7 @@ iframe{
   
   .certs img {
     border-radius: var(--radius-md);
-    width: var(--width-full);
+    width: var(--width-s);
   }
 
   iframe{
