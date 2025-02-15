@@ -833,8 +833,8 @@ iframe{
   }
   
   .certs img {
-    border-radius: var(--radius-lg);
-    width: var(--width-sm);
+    border-radius: var(--radius-md);
+    width: var(--width-full);
   }
 
   iframe{
