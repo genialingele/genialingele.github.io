@@ -594,7 +594,7 @@ iframe{
 /* ---------- RESPONSIVE LAYOUTS ---------------- */
 
 /* PHONE LAYOUTS */
-@media (min-width : 360px) and (max-width : 480px) {
+@media (min-width : 360px) and (max-width : 510px) {
   /* USE JS For Hamburger menu (display block or flex column direction) */
   .root{
     font-size: var(--font-size-s) ;
@@ -899,7 +899,342 @@ iframe{
 }
 
 /*TABLET LAYOUT */
-@media (min-width : 481px) and (max-width : 900px) {}
+@media (min-width : 511px) and (max-width : 900px) {
+    /* USE JS For Hamburger menu (display block or flex column direction) */
+  .root{
+    font-size: var(--font-size-s) ;
+  }
+  .menu2 {
+    background-color:var(--primary-colour);
+    font-size: var(--font-size-s);
+    display: flex;
+    text-transform: uppercase;
+    position:fixed;
+    justify-content: center;
+    padding-top: var(--spacing-xl);
+    margin: var(--no-space);
+    height: var(--height-s);
+    font-size: 11pt;
+    padding: var(--spacing-s);
+    align-items: center;
+    display: none;
+
+  }
+  .menu2 a{
+    padding: var(--no-space);
+    box-shadow: var(--no-shadow);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .avatar {
+    border-radius: var(--no-space);
+    box-shadow: var(--no-shadow);
+    height: var(--width-full);
+    width: var(--width-full);
+    overflow: hidden;
+    display: flex;
+  }
+  
+  #avatar {
+    width: var(--width-full);
+    border-radius: var(--no-space);
+  }
+
+  .two_equal_columns {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--light-colour);
+    padding: var(--spacing-lg);
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: var(--font-size-lg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: var(--spacing-md);
+  }
+  h2{
+    font-size: var(--font-size-sm);
+  }
+  
+  
+  .two_equal_columns_gradient {
+    display: flex;
+    justify-content: center;
+    height: var(--width-full);
+    margin-top: var(--spacing-m);
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: var(--width-full);
+    background-image: radial-gradient(ellipse at left, var(--plain-white-colour), var(--plain-white-colour));
+  }
+
+  .two_equal_columns_gradient section:nth-of-type(2){
+    background-color:var(--light-colour);
+    padding: var(--spacing-lg);
+    width:90%; 
+    margin-top: var(--spacing-lg);
+
+  }
+
+  .projects{
+ text-align: center;
+ margin-top: var(--spacing-lg);
+ padding: var(--spacing-lg);
+}
+
+.projects button{
+  border: var(--no-space);
+  box-shadow: var(--shadow-sm);
+  font-size: var(--font-size-s);
+  background-color: var(--negative-colour);
+}
+
+.projects button:hover{
+  background-color: var(--primary-colour);
+
+}
+
+.projectsMenu {
+
+padding: var(--spacing-s);
+margin-bottom: var(--spacing-xl);
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: var(--font-size-s);
+flex-wrap: wrap;
+font-weight: 300;
+
+}
+
+.projectsMenu button {
+border-radius: var(--no-space);
+background-color: var(--negative-colour);
+margin: var(--spacing-sm);
+padding: var(--spacing-md);
+font-style:normal;
+text-transform: uppercase;
+box-shadow: var(--shadow-sm);
+
+}
+
+.projectsMenu  button:hover {
+border-radius: var(--no-space);
+background-color: var(--primary-colour);
+
+}
+
+.projectsMenu  button.active {
+border-radius: var(--no-space);
+background-color: var(--primary-colour);
+margin: var(--no-space);
+color: var(--plain-white-colour);
+}
+
+
+.projectsGroup {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;  
+  margin-bottom: var(--spacing-xl);
+  flex-wrap: wrap;
+
+}
+
+.projectCard {
+  background-color: var(--plain-white-colour);
+  display: flex;
+  flex-direction: column;
+  width: 350px; /* I know, It's weird but yeah. We leave it alone*/
+  box-shadow: var(--shadow-sm);  
+  align-items: center ;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm);
+  overflow: hidden;
+
+}
+
+.projectCardImage{
+  width: var(--width-full);
+  height: 150px;
+  overflow:hidden;
+}
+
+.projectCard img {
+  width: var(--width-full);
+
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s ease-in-out;
+  background-image: radial-gradient(ellipse at right, var(--primary-colour-rgba), var(--plain-white-colour));
+}
+  .projectLightBox {
+    background-color: var(--plain-white-colour);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    width: var(--width-full);
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    flex-direction: column;
+    
+  }
+  .projectLightBox section:nth-of-type(1){
+    box-shadow: var(--no-shadow);
+    padding: var(--spacing-sm);
+    width: var(--width-full);
+    border-top-left-radius: var(--radius-md) ;
+    border-bottom-left-radius: var(--radius-md) ;
+    border-radius: var(--radius-md);
+  
+  }
+  .projectLightBox section:nth-of-type(2){
+    display: none;
+    overflow: auto;
+    width: var(--width-full);
+  }
+  
+  .projectLightBox img{
+   transform: translate(0%);
+  
+  }
+  
+  .lightboxOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--width-full);
+    height: var(--width-full);
+    background: var(--transparent-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .lightboxContent {
+    background-color: var(--primary-colour-lighter);
+    background-image: radial-gradient(ellipse at bottom right, var(--primary-colour-rgba), var(--plain-white-colour));
+    border-radius: var(--radius-md);
+    max-width: var(--width-xl);
+    max-height: var(--height-xl);
+    display: flex;
+    justify-content: center;
+    overflow:auto;
+    padding: var(--spacing-xl);
+  }
+  
+  
+  
+  .experienceCard {
+    display: flex;
+    gap: var(--spacing-s);
+    padding: var(--spacing-s);
+  }
+
+  .experienceCard a{
+    color: black;
+  }
+
+  .experienceCard a:hover{
+    color: var(--primary-colour-darker);
+  }
+  
+  .experienceCard:hover {
+    display: flex;
+    background-color: var(--plain-white-colour);
+    gap: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-sm);
+  }
+
+  #experience {
+    background: var(--light-colour);
+    background-image: url("/icons/timing-belt-svgrepo-com.svg");
+    border-top-right-radius: var(--radius-xl);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .certs {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .certs img {
+    border-radius: var(--radius-lg);
+    width: var(--width-sm);
+  }
+
+  iframe{
+    width: var(--width-full);
+    height: var(--height-lg);
+    box-shadow: var(--shadow-sm);
+    border: var(--no-space);
+    border-radius: var(--radius-lg);
+  
+  }
+
+  .social_media_icons {
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    font-size: var(--font-size-s);
+  }
+
+  .skillPill {
+    padding-bottom: var(--spacing-lg);
+    display: flex;
+
+  }
+
+  .skillPill span:hover{
+    background-color: var(--primary-colour-lighter);
+    padding: var(--one-space);
+  }
+  
+  .skills {
+    display: flex;
+    width: var(--width-sm);
+  }
+  
+  .articleCard {
+    display: flex;
+    gap: var(--spacing-s);
+    padding: var(--spacing-sm);
+    font-size: 0.71em;
+    border-bottom: var(--border-sm);
+
+  }
+
+  .articleCard a{
+    color: black;
+  }
+
+  .articleCard a:hover{
+    color: var(--primary-colour-darker);
+  }
+  
+  .articleCard:hover {
+    display: flex;
+    background-color: var(--plain-white-colour);
+    gap: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--no-space);
+    padding: var(--spacing-sm);
+  }
+  
+  
+}
 
 /*SMALL COMPUTER LAYOUT */
 @media (min-width : 901px) and (max-width : 900px) {}
