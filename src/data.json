@@ -148,6 +148,29 @@
             ]
         },
         {
+            "title": "English Access Website",
+            "description": "An English language school in SA.",
+            "year": "2023",
+            "links": [
+                "https://englishaccess.co.za/",
+                "https://englishaccess.co.za/"
+
+            ],
+            "image": [
+                "/projectImgs/englishAccess_website-screenshot-01.png"
+            ],
+            "techstack": [
+                "WordPress", "CSS"
+            ],
+            "category": [
+                "Featured", "Websites"
+            ],
+            "additional_info": "",
+            "status": [
+                "Live"
+            ]
+        },
+        {
             "title": "SIEM Tool",
             "description": "For cyber security analysts (SOC).",
             "year": "10 Jan 2025",
