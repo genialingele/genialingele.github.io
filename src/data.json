@@ -309,21 +309,21 @@
             "description": "Manage your client tickets.",
             "year": "26 Jan 2025",
             "links": [
-                "https://github.com/genialingele/",
-                "https://github.com/genialingele/"
+                "https://genialingele.github.io/resolve-rush",
+                "https://github.com/genialingele/resolve-rush"
             ],
             "image": [
-                "/projectImgs/big_wide_placeholder.png"
+                "/projectImgs/support_center-screenshot-01.png"
             ],
             "techstack": [
-                "PHP", "JS", "HTML", "CSS", "Laravel"
+                "PHP",  "Laravel", "Livewire", "HTML", "Tailwind"
             ],
             "category": [
                 "Fullstack"
             ],
             "additional_info": "I'm still working on this project.",
             "status": [
-                "Inactive"
+                "In development"
             ]
         }
     ],
