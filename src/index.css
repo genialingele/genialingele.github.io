@@ -43,6 +43,7 @@
 
   --width-s: 50px;
   --width-sm: 100px;
+  --width-m: 330px;
   --width-md: 420px;
   --width-lg: 600px;
   --width-xl: 80%;
@@ -838,7 +839,7 @@ iframe{
   }
 
   iframe{
-    width: var(--width-full);
+    width: var(--width-m);
     height: var(--height-lg);
     box-shadow: var(--shadow-sm);
     border: var(--no-space);
