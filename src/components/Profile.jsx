@@ -14,7 +14,7 @@ function Profile() {
                 <section>
                     <Avatar />
                 </section>
-               
+
                 <section>
                     <h1>Genial Ingele </h1>
                     <h2><em> Software Developer. <br></br> Cybersecurity Analyst. </em></h2>
@@ -24,16 +24,14 @@ function Profile() {
                             data.icons.map((icon, id) => {
                                 return (
                                     <span key={id} ><img src={icon.url} alt={icon.name} width={20} /> {icon.name} </span>
-                                    
+
                                 );
                             })
                         }
-
-
-                         </div>
-                    <p> Nice to meet you! 
+                    </div>
+                    <p> Nice to meet you!
                         <br></br>
-                    I am a business-minded, cybersecurity-minded, full stack developer who uses 
+                        I am a business-minded, cybersecurity-minded, full stack developer who uses
                         <br></br> creativity  and logic to resolve real world problems.</p>
 
                     <div className="social_media_icons">
